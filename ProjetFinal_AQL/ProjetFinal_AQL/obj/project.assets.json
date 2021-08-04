@@ -8,26 +8,19 @@
     "net5.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\thiar\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\faouz\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thiar\\Documents\\GitHub\\ProjetFinal_AQL\\ProjetFinal_AQL\\ProjetFinal_AQL\\ProjetFinal_AQL.csproj",
+      "projectUniqueName": "C:\\Users\\faouz\\OneDrive\\Documents\\GitHub\\ProjetFinal_AQL\\ProjetFinal_AQL\\ProjetFinal_AQL\\ProjetFinal_AQL.csproj",
       "projectName": "ProjetFinal_AQL",
-      "projectPath": "C:\\Users\\thiar\\Documents\\GitHub\\ProjetFinal_AQL\\ProjetFinal_AQL\\ProjetFinal_AQL\\ProjetFinal_AQL.csproj",
-      "packagesPath": "C:\\Users\\thiar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thiar\\Documents\\GitHub\\ProjetFinal_AQL\\ProjetFinal_AQL\\ProjetFinal_AQL\\obj\\",
+      "projectPath": "C:\\Users\\faouz\\OneDrive\\Documents\\GitHub\\ProjetFinal_AQL\\ProjetFinal_AQL\\ProjetFinal_AQL\\ProjetFinal_AQL.csproj",
+      "packagesPath": "C:\\Users\\faouz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\faouz\\OneDrive\\Documents\\GitHub\\ProjetFinal_AQL\\ProjetFinal_AQL\\ProjetFinal_AQL\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\thiar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\faouz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -70,7 +63,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
