@@ -8,63 +8,69 @@ using System.IO;
 
 namespace ProjetFinal_AQL
 {
-    
-    
-        class Etudiant
+
+
+    class Etudiant
+    {
+        private int numeroEtudiant;
+        private String nom;
+        private String prenom;
+
+        public Etudiant()
         {
-            private int numeroEtudiant;
-            private String nom;
-            private String prenom;
 
-            public Etudiant()
-            {
+        }
 
-            }
+        public Etudiant(string nom, string prenom)
+        {
+            this.numeroEtudiant = this.creationNumero();
+            this.nom = nom;
+            this.prenom = prenom;
+        }
 
-            public Etudiant( string nom, string prenom)
-            {
-                this.numeroEtudiant = this.creationNumero() ;
-                this.nom = nom;
-                this.prenom = prenom;
-            }
+        public int getNumeroEtudiant()
+        {
+            return numeroEtudiant;
+        }
 
-            public int getNumeroEtudiant()
-            {
-                return numeroEtudiant;
-            }
+        public void setNumeroEtudiant(int numeroEtudiant)
+        {
+            this.numeroEtudiant = numeroEtudiant;
+        }
 
-            public void setNumeroEtudiant(int numeroEtudiant)
-            {
-                this.numeroEtudiant = numeroEtudiant;
-            }
+        public String getNom()
+        {
+            return nom;
+        }
 
-            public String getNom()
-            {
-                return nom;
-            }
+        public void setNom(String nom)
+        {
+            this.nom = nom;
+        }
 
-            public void setNom(String nom)
-            {
-                this.nom = nom;
-            }
+        public String getPrenom()
+        {
+            return prenom;
+        }
 
-            public String getPrenom()
-            {
-                return prenom;
-            }
-
-            public void setPrenom(String prenom)
-            {
-                this.prenom = prenom;
-            }
-           private int creationNumero()
-           {
+        public void setPrenom(String prenom)
+        {
+            this.prenom = prenom;
+        }
+        private int creationNumero()
+        {
             Random rand = new Random();
             return rand.Next(1000000, 9999999);
-           }
+        }
+
+        public static bool Exists(string numero)
+        {
+            string path = "../../../base/listeEtudiant/" + numero + ".txt";
+            return File.Exists(path);
+        }
 
         public static void recherche(string numero, TextBox imprime)
-            {
+        {
             string path = "../../../base/listeEtudiant/" + numero + ".txt";
 
             if (File.Exists(path))
@@ -73,9 +79,9 @@ namespace ProjetFinal_AQL
             }
             else
             {
-                MessageBox.Show("Etudiant < " + numero + " > introvable","", MessageBoxButtons.OK ,MessageBoxIcon.Error);
+                MessageBox.Show("Etudiant < " + numero + " > introvable", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            }
+        }
 
         public void enregistrerEtudiant(TextBox nomBox, TextBox prenomBox)
         {
@@ -97,12 +103,14 @@ namespace ProjetFinal_AQL
             }
             else
             {
-                nomBox.Text = this.nom ;
+                nomBox.Text = this.nom;
                 prenomBox.Text = this.prenom;
 
             }
         }
-        }
+
+
     }
+}
 
 
