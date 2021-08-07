@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thiar\\Documents\\GitHub\\ProjetFinal_AQL\\ProjetFinal_AQL\\ProjetFinal_AQL\\ProjetFinal_AQL.csproj": {}
+    "C:\\Users\\thiar\\Desktop\\ProjetFinal_AQL\\ProjetFinal_AQL\\ProjetFinal_AQL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thiar\\Documents\\GitHub\\ProjetFinal_AQL\\ProjetFinal_AQL\\ProjetFinal_AQL\\ProjetFinal_AQL.csproj": {
+    "C:\\Users\\thiar\\Desktop\\ProjetFinal_AQL\\ProjetFinal_AQL\\ProjetFinal_AQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thiar\\Documents\\GitHub\\ProjetFinal_AQL\\ProjetFinal_AQL\\ProjetFinal_AQL\\ProjetFinal_AQL.csproj",
+        "projectUniqueName": "C:\\Users\\thiar\\Desktop\\ProjetFinal_AQL\\ProjetFinal_AQL\\ProjetFinal_AQL.csproj",
         "projectName": "ProjetFinal_AQL",
-        "projectPath": "C:\\Users\\thiar\\Documents\\GitHub\\ProjetFinal_AQL\\ProjetFinal_AQL\\ProjetFinal_AQL\\ProjetFinal_AQL.csproj",
+        "projectPath": "C:\\Users\\thiar\\Desktop\\ProjetFinal_AQL\\ProjetFinal_AQL\\ProjetFinal_AQL.csproj",
         "packagesPath": "C:\\Users\\thiar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thiar\\Documents\\GitHub\\ProjetFinal_AQL\\ProjetFinal_AQL\\ProjetFinal_AQL\\obj\\",
+        "outputPath": "C:\\Users\\thiar\\Desktop\\ProjetFinal_AQL\\ProjetFinal_AQL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
