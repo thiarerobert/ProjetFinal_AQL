@@ -3,36 +3,49 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace ProjetFinal_AQL
 {
     class Note
     {
-       private double note;
-       private int numeroEtudiant;
-       private int numeroCours;
-     public double getNote()
-        {
-            return note;
-        }
-        public void setNote(double note) { this.note = note; }
-        public int getNumeroEtudiant() 
-        {
-            return numeroEtudiant;
-        }
-        public void setNumeroEtudiant(int numeroEtudiant) { this.numeroEtudiant= numeroEtudiant; }
+        private int numeroCours;
+        private int numeroEtudiant;
+        private double note;
 
-        public int getNumeroCours()
+        public Note()
         {
-            return numeroCours;
+            numeroCours = 0;
+            numeroEtudiant = 0;
+            note = 0.0;
         }
-        public void setNumeroCours(int numeroCours) { this.numeroCours = numeroCours; }
-
-        public Note(double note, int numeroEtudiant, int numeroCours)
+        public Note(int numeroCours, int numeroEtudiant, int note)
         {
-            this.note = note;
-            this.numeroEtudiant = numeroEtudiant;
             this.numeroCours = numeroCours;
+            this.numeroEtudiant = numeroEtudiant;
+            this.note = note;
         }
+
+        public static void ajouter(string numeroCours, string numeroEtudiant, string note)
+        {
+            bool cours = Cours.Exists(numeroCours.ToString());
+            bool etudiant = Etudiant.Exists(numeroEtudiant);
+
+            if(cours && etudiant)
+            {
+                string c = Cours.GetCours(numeroCours.ToString());
+                string valeur = c + " note : " + note;
+                Sauve.file("../../../base/listeEtudiant/" + numeroEtudiant + ".txt",valeur);
+                MessageBox.Show("Ca marche");
+
+            }
+            else
+            {
+                MessageBox.Show("Cours -> " + cours + " & Etudiant -> " + etudiant, "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        
+
     }
 }
