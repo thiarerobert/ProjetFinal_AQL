@@ -1,0 +1,10 @@
+C:\Users\thiar\Documents\GitHub\ProjetFinal_AQL\ProjetTest\ProjetTest\bin\Debug\ProjetTest.exe.config
+C:\Users\thiar\Documents\GitHub\ProjetFinal_AQL\ProjetTest\ProjetTest\bin\Debug\ProjetTest.exe
+C:\Users\thiar\Documents\GitHub\ProjetFinal_AQL\ProjetTest\ProjetTest\bin\Debug\ProjetTest.pdb
+C:\Users\thiar\Documents\GitHub\ProjetFinal_AQL\ProjetTest\ProjetTest\obj\Debug\ProjetTest.csproj.AssemblyReference.cache
+C:\Users\thiar\Documents\GitHub\ProjetFinal_AQL\ProjetTest\ProjetTest\obj\Debug\ProjetTest.Form1.resources
+C:\Users\thiar\Documents\GitHub\ProjetFinal_AQL\ProjetTest\ProjetTest\obj\Debug\ProjetTest.Properties.Resources.resources
+C:\Users\thiar\Documents\GitHub\ProjetFinal_AQL\ProjetTest\ProjetTest\obj\Debug\ProjetTest.csproj.GenerateResource.cache
+C:\Users\thiar\Documents\GitHub\ProjetFinal_AQL\ProjetTest\ProjetTest\obj\Debug\ProjetTest.csproj.CoreCompileInputs.cache
+C:\Users\thiar\Documents\GitHub\ProjetFinal_AQL\ProjetTest\ProjetTest\obj\Debug\ProjetTest.exe
+C:\Users\thiar\Documents\GitHub\ProjetFinal_AQL\ProjetTest\ProjetTest\obj\Debug\ProjetTest.pdb
