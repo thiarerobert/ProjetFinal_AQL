@@ -105,6 +105,7 @@ namespace ProjetFinal_AQL
             {
                 nomBox.Text = this.nom;
                 prenomBox.Text = this.prenom;
+//faouzi
 
             }
         }
