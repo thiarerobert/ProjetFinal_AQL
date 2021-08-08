@@ -24,6 +24,7 @@ namespace ProjetFinal_AQL
 
         private void button2_Click(object sender, EventArgs e)
         {
+            // Les actions
             Etudiant etudiant = new Etudiant(nomBox.Text, prenomBox.Text);
             etudiant.enregistrerEtudiant(nomBox, prenomBox);
         }
